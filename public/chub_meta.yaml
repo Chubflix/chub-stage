@@ -1,0 +1,84 @@
+# Chubflix Next Episode Stage
+# This file configures the stage metadata for ChubAI
+
+# The name of the stage as it will appear in the stage selector
+name: "Chubflix: Next Episode"
+
+extension_id: chub-characters-8662cf1cfa03
+
+# A short description of what the stage does
+description: "Navigate between episodic greetings with a visual Next Episode button. Perfect for Chubflix character narratives with multiple episodes."
+
+# Tags for discoverability
+tags:
+  - chubflix
+  - navigation
+  - episodes
+  - greetings
+  - ui
+  - storytelling
+
+# Where the stage should be positioned
+# Options: TOP, BOTTOM, LEFT, RIGHT, NONE
+# NONE means the stage runs in the background with no UI
+position: RIGHT
+
+# The width of the stage in pixels (for LEFT/RIGHT positions)
+# or height (for TOP/BOTTOM positions)
+size: 280
+
+# Configuration schema for user-customizable options
+# This generates a settings form in the stage configuration UI
+config_schema:
+  type: object
+  properties:
+    showEpisodeNumber:
+      type: boolean
+      title: "Show Episode Number"
+      description: "Display the current episode number (e.g., 'Episode 3 of 7')"
+      default: true
+    showProgress:
+      type: boolean
+      title: "Show Progress Bar"
+      description: "Display a visual progress bar"
+      default: true
+    buttonText:
+      type: string
+      title: "Button Text"
+      description: "Custom text for the Next Episode button"
+      default: "Next Episode"
+    injectContext:
+      type: boolean
+      title: "Inject Episode Context"
+      description: "Add episode context to prompts for narrative continuity"
+      default: true
+    theme:
+      type: string
+      title: "Color Theme"
+      description: "Visual theme for the stage"
+      enum:
+        - chubflix
+        - dark
+        - light
+      default: chubflix
+
+# Permissions the stage needs
+# Currently unused but reserved for future features
+permissions: []
+
+# Minimum Chub version required (if applicable)
+min_version: "0.5.0"
+
+# Author information
+author: "Chubflix"
+
+# Version of this stage
+version: "1.0.0"
+
+# Repository URL (optional)
+repository: "https://github.com/Chubflix/chub-stage"
+
+github_path: "https://github.com/Chubflix/chub-stage"
+
+# License
+license: "MIT"

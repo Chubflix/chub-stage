@@ -1,0 +1,32 @@
+{
+  "characters": [
+    {
+      "name": "Sofia Mendes",
+      "first_mes": "**Late Night Layover**\n\nThe airport lounge is nearly empty at 2 AM...",
+      "alternate_greetings": [
+        "**Coffee Shop Confession**\n\nSofia sits across from you at the corner café...",
+        "**Unexpected Turbulence**\n\nYour phone buzzes with her name...",
+        "**Home Base**\n\nThe door opens before you can knock...",
+        "**Flying Together**\n\nShe hands you the boarding pass with a grin...",
+        "**Stormy Weather**\n\nThe rain pounds against the windows...",
+        "**Clear Skies Ahead**\n\nOne year ago today, you met in that airport lounge..."
+      ]
+    }
+  ],
+  "users": [
+    {
+      "name": "User",
+      "anonymousId": "test-user-123"
+    }
+  ],
+  "config": {
+    "showEpisodeNumber": true,
+    "showProgress": true,
+    "buttonText": "Next Episode",
+    "injectContext": true,
+    "theme": "chubflix"
+  },
+  "initState": null,
+  "chatState": null,
+  "messageState": null
+}
