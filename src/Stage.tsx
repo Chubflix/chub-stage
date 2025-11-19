@@ -82,6 +82,8 @@ export class Stage extends StageBase<
 
     constructor(data: InitialData<InitStateType, ChatStateType, MessageStateType, ConfigType>) {
         super(data);
+
+        console.log(data);
         
         // Log constructor data
         this.addDebugLog('constructor', {
