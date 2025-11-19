@@ -59,14 +59,13 @@ config_schema:
 
 needs_history: true
 
-state_schema: {}
+state_schema:
 
 is_anonymous: false
 
 ratings_disabled: false
 
-permissions: []
+permissions:
 
 github_path: "https://github.com/Chubflix/chub-stage"
-
-extension_id: 'chub-stage-ef2bda800373'
+extension_id: 'chub-stage-b8fc21de3f10'
