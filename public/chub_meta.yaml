@@ -2,10 +2,17 @@
 # This file configures the stage metadata for ChubAI
 
 # The name of the stage as it will appear in the stage selector
-name: "Chubflix: Next Episode"
+project_name: "Chubflix: Next Episode"
 
-# A short description of what the stage does
-description: "Navigate between episodic greetings with a visual Next Episode button. Perfect for Chubflix character narratives with multiple episodes."
+# A short tagline to show in search.
+tagline: "Chubflix Episode Add-On"
+
+# A longer explanation. Supports Markdown format.
+creator_notes: |-
+  Navigate between episodic greetings with a visual Next Episode button. Perfect for Chubflix character narratives with multiple episodes.
+
+# 'PUBLIC', 'PRIVATE', or 'UNLISTED'.
+visibility: 'UNLISTED'
 
 # Tags for discoverability
 tags:
