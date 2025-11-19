@@ -4,8 +4,6 @@
 # The name of the stage as it will appear in the stage selector
 name: "Chubflix: Next Episode"
 
-extension_id: chub-characters-8662cf1cfa03
-
 # A short description of what the stage does
 description: "Navigate between episodic greetings with a visual Next Episode button. Perfect for Chubflix character narratives with multiple episodes."
 
